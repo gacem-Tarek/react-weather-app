@@ -1,0 +1,51 @@
+.wrapper{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: solid 2px black;*/
+    padding: 10px 0 50px 0;
+    
+  }
+  
+ 
+  
+
+  .day h2.main{
+    text-align: center;
+    font-size:13px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+  .day h2.date {
+    text-align: center;
+   
+    font-size:17px;
+    font-family: 'Roboto';
+    
+  }
+  .day .forcasting{
+      width:100px;
+  }
+  
+  .day{
+    
+    margin: 0 1em;
+    box-shadow: 1px 1px 5px 1px ;
+    
+    border-radius: 15px;
+    padding: 10px 18px;
+    font-family: 'Roboto';
+    justify-content:center;
+        }
+  
+        .day .tempM {
+            font-weight: bold;
+        }
+    .day img{
+      width:80px;
+      height:auto;
+      
+    }
